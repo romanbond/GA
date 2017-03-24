@@ -65,7 +65,11 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
+  max-width: 50%;
+  height: 50%;
+  width: auto;
   padding-top: 0px;
+  --background-size:contain;
 }
 header .navbar-default {
   background: none;
