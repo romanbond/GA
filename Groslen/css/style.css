@@ -8,7 +8,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 h1,
 h2,
@@ -62,16 +61,11 @@ header {
   padding: 20px 0;
 }
 header .navbar {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   border: 0px;
 }
 header .navbar-brand {
-  max-width: 50%;
-  height: 0%;
-  width: auto;
   padding-top: 0px;
-  padding-bottom: 0px;
-  background-size:contain;
 }
 header .navbar-default {
   background: none;
@@ -231,10 +225,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature {
   background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
-  /*width: 100%;*/
+  width: 100%;
   display: block;
   position: relative;
-  overflow-x: hidden;
+  overflow: visible;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -248,25 +242,14 @@ font header .navbar-default .navbar-nav li a:hover {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 40px 0;
+  padding: 5% 0;
 }
 #feature h2 {
-  position: relative;
-  left: 110px;
-  right: 0px;
-  width: 350px;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
-  padding: 0;
   margin-bottom: 30px;
 }
 #feature p {
-  position: relative;
-  left: 110px;
-  right: 0px;
-  width: 485px;
-  padding: 0;
-  /*width: 475px;*/
   color: #8d8f92;
   margin-bottom: 20px;
 }
